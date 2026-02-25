@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  direction: rtl;
+  color: white;
+}
+
+.container {
+  background: rgba(255,255,255,0.1);
+  padding: 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  width: 320px;
+  text-align: center;
+}
+
+.password-box {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.password-box input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+
+.password-box button {
+  border: none;
+  background: #00c6ff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.range-box {
+  margin: 10px 0;
+}
+
+.options {
+  text-align: right;
+  margin: 10px 0;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.generate {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: #00c6ff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 8px;
+  background: #555;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+#strengthBar {
+  height: 8px;
+  width: 0%;
+  background: red;
+  border-radius: 10px;
+}
