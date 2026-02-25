@@ -1,2 +1,0 @@
-# Passforge
-Password generator 
